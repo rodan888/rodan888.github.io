@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+  url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+  url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+  url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: "Arimo-Regular_0";
+  src: url("../fonts/Arimo-Regular_0/Arimo-Regular_0.eot");
+  src: url("../fonts/Arimo-Regular_0/Arimo-Regular_0.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Arimo-Regular_0/Arimo-Regular_0.woff") format("woff"),
+  url("../fonts/Arimo-Regular_0/Arimo-Regular_0.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Arimo-Bold_0";
+  src: url("../fonts/Arimo-Bold_0/Arimo-Bold_0.eot");
+  src: url("../fonts/Arimo-Bold_0/Arimo-Bold_0.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Arimo-Bold_0/Arimo-Bold_0.woff") format("woff"),
+  url("../fonts/Arimo-Bold_0/Arimo-Bold_0.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Museo-Cyrl";
+  src: url("../fonts/Museo-Cyrl/Museo-Cyrl.eot");
+  src: url("../fonts/Museo-Cyrl/Museo-Cyrl.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/Museo-Cyrl/Museo-Cyrl.woff") format("woff"),
+  url("../fonts/Museo-Cyrl/Museo-Cyrl.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
