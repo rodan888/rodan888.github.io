@@ -1,0 +1,523 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "OpenSansRegular", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+a
+	text-decoration: none
+h1,
+h2,
+h3,
+h4,
+p
+	padding: 0
+	margin: 0
+input,
+textarea,
+button
+	outline: none
+	border: none
+
+.trs
+	@include transition(all 0.3s ease-in-out)
+// i
+// 	margin-right: 5px
+h4,
+.text
+	font-weight: normal
+	font-size: 14px
+	line-height: 20px
+	h3
+		font-size: 18px
+		margin: 20px 0
+		font-weight: normal
+	p
+		font-weight: normal
+		font-size: 14px
+		line-height: 24px
+		img
+			width: 215px!important
+			float: left
+			margin: 10px 10px 10px 0
+.more
+	display: inline-block
+	padding: 8px 10px
+.top_nav,
+.fixed_nav
+	min-height: 50px
+	ul
+		li
+			display: inline-block
+			vertical-align: top
+			a
+				line-height: 50px
+				display: inline-block
+				padding: 0 6px
+				font-weight: bold	
+.tog_mnu
+	text-align: right
+	display: none
+	position: relative
+	height: 35px
+	padding-right: 70px
+	font-size: 22px
+	padding-top: 4px
+	span
+		@include transition(all 0.4s ease-in-out)
+		position: absolute
+		right: 20px
+		width: 40px
+		height: 2px
+		cursor: pointer
+	span:nth-child(1)
+		top: 5px
+	span:nth-child(2)
+		top: 17px
+	span:nth-child(3)
+		top: 29px
+.tog_active
+	span:nth-child(1)
+		@include transform(rotate(45deg))
+		@include transition-delay(0.4s)
+		top: 17px
+	span:nth-child(2)
+		width: 0
+	span:nth-child(3)
+		@include transform(rotate(-45deg))
+		@include transition-delay(0.4s)
+		top: 17px
+
+.social
+	text-align: right
+	li
+		display: inline-block
+		form
+			position: relative
+			overflow: hidden
+			input[type="text"]
+				width: 200px
+				height: 50px
+				text-indent: 5px
+				display: block			
+			button[type="submit"]
+				position: absolute
+				top: 0
+				right: -40px
+				height: 50px
+				width: 40px
+				font-size: 20px
+		a
+			width: 50px
+			text-align: center
+			line-height: 50px
+			display: inline-block
+			padding: 0 8px
+			font-weight: bold			
+			i
+				font-size: 18px
+	.top_navig
+		text-align: left
+.fixed_nav
+	text-align: center
+.ban_block
+	padding: 20px 0
+	.logo
+		display: block
+		text-align: left
+		img
+			width: 100%
+			max-width: 250px
+	.top_buner
+		display: block
+		text-align: center
+		img
+			width: 100%
+			max-width: 700px
+.top_news
+	position: relative
+	text-align: center
+	img
+		width: 100%
+		height: auto
+	.news_title
+		position: absolute
+		bottom: 0
+		right: 0
+		width: 100%
+		min-height: 70px
+		padding: 10px 0
+		p
+			text-align: left
+			padding-left: 10px
+.main_block
+	padding: 0px 0 20px
+
+.news_block
+	margin-top: 20px
+	text-align: left
+	.big_post
+		padding: 15px 0
+		.img_wrap
+			a
+				display: block
+				position: relative
+				overflow: hidden		
+				&:before,
+				&:after
+					@include transition(all 0.5s ease-in-out)
+					position: absolute
+					content: ""
+					width: 70%
+					height: 160%					
+					transform: rotate(-40deg)	
+				&:before
+					left: -48px
+					top: -10px					
+				&:after
+					right: -60px
+					top: -115px			
+			a:hover:before,
+			a:hover:after
+				width: 0
+		.small_deskr
+			padding: 0 5px
+			h3			
+				margin-bottom: 10px
+	.big_post > div
+		display: inline-block
+		width: 49%
+		vertical-align: top
+	h2
+		min-height: 36px
+		.economy,
+		.coruption,
+		.two_mind,
+		.people,
+		.even,
+		.sport
+			font-size: 20px
+			text-transform: uppercase
+			padding: 7px 12px
+			vertical-align: middle
+	.img_wrap
+		img
+			width: 100%
+.but_wrap
+	text-align: right
+	margin-top: 10px
+.small_wrap
+	text-align: left
+	padding: 10px 0
+	.small_post	
+		display: inline-block
+		width: 49%
+		vertical-align: top
+		margin: 15px 0
+	.small_post > div		
+		display: inline-block		
+		vertical-align: top
+	.small_post div:first-child
+		width: 29%
+	.small_post div:last-child
+		width: 69%
+	.img_thumb
+		img
+			width: 100%
+	h4
+		text-align: left
+.tabs_wrap
+	min-height: 700px
+.tabs_link
+	margin: 10px 0
+	text-align: center
+	li
+		display: inline-block
+		width: 19%
+		text-align: center
+		p
+			padding: 10px
+			cursor: pointer
+	.activ_tab
+		position: relative
+		&:before
+			content: "\25be"
+			position: absolute
+			width: 15px
+			height: 15px
+			left: 50%
+			margin-left: -7px
+			bottom: 6px
+			font-size: 20px
+.tabs_cont
+	ul:nth-child(1n+2)
+		display: none
+	li
+		margin: 25px 0	
+		padding-bottom: 15px
+		&:last-child
+			border: none	
+	li > div
+		display: inline-block		
+		vertical-align: top
+	.img_wrap
+		width: 29%		
+		img
+			width: 100%
+	.info_tabs
+		width: 69%
+		padding: 0px 10px
+		text-align: left
+		h4
+			font-size: 16px
+		.info_wrap
+			margin: 10px 0
+			padding-left: 15px
+#marquee
+	overflow: hidden
+	.item
+		display: inline-block
+		a
+			line-height: 50px
+		span
+			margin-right: 10px
+.title
+	font-size: 20px	
+	padding: 7px 5px
+	margin-bottom: 10px
+.lust_news
+	li > div
+		display: inline-block
+		vertical-align: top	
+	li
+		padding: 10px 0	
+		min-height: 100px
+		.time
+			width: 50px
+			font-size: 12px
+		.link
+			width: 77%
+			a
+				display: block
+.lust_blog
+	text-align: center
+	li
+		padding: 0 3px
+		position: relative
+		&:before
+			content: ""
+			position: absolute
+			top: 0
+			right: 0
+			width: 2px
+			height: 0
+			@include transition(all 0.3s ease-in-out)
+		&:hover:before
+			height: 100%			
+		.img_wrap
+			a
+				display: block
+		&:hover img
+			-webkit-filter: grayscale(0)
+			filter: grayscale(0)
+	img
+		width: 100%
+		max-width: 200px
+		-moz-filter: grayscale(1)
+		-webkit-filter: grayscale(1)
+		filter: grayscale(1)
+		@include transition(all 0.3s ease-in-out)
+	.link
+		margin: 10px 0
+		a
+			display: block
+			text-align: left
+		.view_black
+			display: block
+			text-align: left
+			margin: 10px
+.pagination
+	margin: 20px 0
+	text-align: center
+	ul
+		li
+			display: inline-block
+			margin-right: 10px
+			a
+				display: block
+				width: 40px
+				height: 40px
+				font-size: 20px
+				text-align: center
+				line-height: 40px
+				@include transition(all 0.3s ease-in-out)
+article
+	margin-top: 20px
+	padding-bottom: 20px	
+	h3
+		font-weight: normal
+		margin-bottom: 15px
+		span
+			margin-right: 10px
+.artic_wrap
+	text-align: center
+	padding-top: 5px
+.artic_wrap > div
+	display: inline-block
+	vertical-align: top
+.artic_wrap > div:first-child
+	width: 29%
+	img
+		width: 100%
+.artic_wrap > div:last-child
+	width: 69%
+.tags,
+.breadcrumbs
+	li
+		display: inline-block
+		margin-right: 5px
+		a
+			display: block
+			font-size: 14px
+			padding: 3px 5px
+			text-decoration: underline
+			@include transition(all 0.3s ease-in-out)
+.breadcrumbs
+	min-height: 50px
+	a
+		line-height: 50px
+aside > div
+	min-height: 200px
+	margin-bottom: 15px
+.baner_block
+	a
+		display: block
+		margin: 0px 0 20px
+		text-align: center
+		img
+			width: 100%
+			height: auto
+			max-width: 200px
+.title_inside
+	font-size: 28px
+	font-weight: normal
+	margin-bottom: 15px
+	span
+		margin-right: 5px
+.share
+	margin-top: 20px
+	.social
+		text-align: center
+		li
+			width: 20%
+			height: 35px
+			a
+				display: block
+				width: 100%
+				text-align: center
+				line-height: 35px
+.comment
+	padding: 10px 0
+	margin: 10px 0
+	.comment_form
+		padding: 10px 0	
+		textarea
+			width: 100%
+			height: 270px
+			margin: 10px 0
+			text-indent: 10px
+		label
+			display: inline-block
+			vertical-align: top
+			width: 33%
+			input
+				height: 45px
+				display: block
+				width: 100%
+				text-indent: 10px
+.contact
+	li
+		margin: 15px 0
+.cat_list
+	text-align: center
+	margin: 15px 0
+	li
+		@include transition(all 0.3s ease-in-out)
+		display: inline-block
+		width: 120px
+		height: 40px
+		line-height: 40px
+		margin-right: 10px
+		cursor: pointer
+		margin-bottom: 5px
+.foto_tile
+	text-align: center
+	.cat
+		display: inline-block		
+		ul
+			width: 270px
+			height: 280px
+			position: relative
+			overflow: hidden
+			display: inline-block
+			margin-right: 5px
+			img
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				z-index: 1
+				min-height: 200px
+				cursor: pointer
+		.foto_title
+			position: relative
+			bottom: -200px
+			height: 80px
+			z-index: 2
+			cursor: default
+			@include transition(all 0.3s ease-in-out)
+
+
+
+
+
+footer
+	min-height: 180px
+	padding-top: 20px
+	.copy
+		p
+			line-height: 25px
+.foot_mnu
+	margin: 0 0 20px 0
+	text-align: center
+	li
+		display: inline-block
+		height: 50px
+		a
+			display: block
+			padding: 16px 10px
+			font-weight: 600
+
+
+
+		
+
+

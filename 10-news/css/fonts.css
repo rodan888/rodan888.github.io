@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "quicksand-light-webfont";
+  src: url("../fonts/quicksand-light-webfont/quicksand-light-webfont.eot");
+  src: url("../fonts/quicksand-light-webfont/quicksand-light-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/quicksand-light-webfont/quicksand-light-webfont.woff") format("woff"),
+  url("../fonts/quicksand-light-webfont/quicksand-light-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "quicksand-regular-webfont";
+  src: url("../fonts/quicksand-regular-webfont/quicksand-regular-webfont.eot");
+  src: url("../fonts/quicksand-regular-webfont/quicksand-regular-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/quicksand-regular-webfont/quicksand-regular-webfont.woff") format("woff"),
+  url("../fonts/quicksand-regular-webfont/quicksand-regular-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "seasrn__-webfont";
+  src: url("../fonts/seasrn__-webfont/seasrn__-webfont.eot");
+  src: url("../fonts/seasrn__-webfont/seasrn__-webfont.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/seasrn__-webfont/seasrn__-webfont.woff") format("woff"),
+  url("../fonts/seasrn__-webfont/seasrn__-webfont.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

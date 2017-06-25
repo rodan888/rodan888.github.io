@@ -1,0 +1,244 @@
+@import "../bourbon/bourbon"
+//Theme skin
+$bg_color: #fff
+$text_color: #000
+$text_color_op: rgba(0,0,0, .6)
+$but_color: #C0392B 
+$but_hover:#84251B
+$link_color: #fff
+$border_col: #EFE5E5
+$focus_inp:#611D16
+$main_color: #222
+
+//categories
+$economy:#BEBE1B
+$coruption:#DD9933
+$two_mind: #8224E3
+$people:#DD3333
+$even:#1E73BE
+$sport:#81D742
+$experts:#000000
+$culture:#C62BBF
+
+//social
+$twitter: #00A0D1
+$facebook: #3B5998
+$google: #DB4A39
+$vk: #4E7097
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $text_color
+	background-color: $bg_color
+a
+	color: $link_color
+
+p
+	color: $text_color
+.text
+	color: $text_color
+.economy,
+.coruption,
+.two_mind,
+.people,
+.even,
+.sport
+	color: $bg_color
+	font-size: 12px
+	padding: 2px 5px
+	vertical-align: middle
+
+.economy	
+	background-color: $economy
+.coruption
+	background-color: $coruption
+.two_mind
+	background-color: $two_mind
+.people
+	background-color: $people
+.even
+	background-color: $even
+.sport
+	background-color: $sport
+
+.top_nav
+	background-color: $but_color
+	ul
+		li
+			a:hover
+				background-color: $but_hover
+.fixed_nav
+	border-top: 1px solid $border_col
+	border-bottom: 2px solid $border_col
+	ul
+		a
+			color: $text_color
+			&:hover
+				color: $bg_color
+				background-color: $but_color	
+#topsearch
+	input[type="text"]
+		background-color: $but_hover
+		color: $bg_color
+		&:focus
+			background-color: $focus_inp
+	button[type="submit"]
+		background-color: $focus_inp
+		color: $bg_color
+.news_title
+	background-color: $text_color_op
+	h3
+		font-size: 18px
+		margin: 0 0 8px 0
+.date,
+.view
+	color: $bg_color
+	font-size: 12px
+.date_black,
+.view_black	
+	font-size: 12px
+	color: $text_color
+.news_block
+	h2
+		background-color: $border_col
+.small_wrap,
+.info_wrap,
+.breadcrumbs
+	border-bottom: 1px solid $border_col
+.small_deskr
+	h3
+		a
+			color: $text_color
+			&:hover
+				color: $but_color
+.big_post,
+article
+	border-bottom: 1px solid $border_col
+.more
+	background-color: $but_color
+	&:hover
+		background-color: $but_hover	
+h4
+	a
+		color: $text_color
+		&:hover
+			color: $but_color
+.tabs_cont
+	li
+		border-bottom: 1px solid $border_col
+.tabs_link
+	background-color: $but_color
+	li	
+		p
+			color: $bg_color
+			&:hover
+				background-color: $but_hover
+	.activ_tab
+		background-color: $but_hover
+		&:before	
+			color: $bg_color
+#marquee
+	height: 50px
+	a
+		color: $text_color
+.img_wrap
+	a
+		&:before,
+		&:after
+			background-color: $text_color_op
+		&:before
+			border-right: 1px solid $but_color
+		&:after
+			border-left: 1px solid $but_color
+.title
+	background-color: $border_col
+	border-bottom: 2px solid $but_color
+.lust_news
+	li
+		border-bottom: 1px solid $border_col
+		&:hover
+			border-right: 2px solid $but_color
+.lust_blog
+	li
+		&:before
+			background-color: $but_color	
+.link
+	a
+		color: $text_color
+		&:hover
+			color: $but_color
+.pagination
+	a
+		background-color: $but_color
+		&:hover
+			background-color: $but_hover
+			box-shadow: 0 1px 3px #000
+.tags,
+.breadcrumbs
+	a
+		color: $text_color
+		&:hover
+			background-color: $border_col
+.share
+	.social
+		.tw
+			background-color: $twitter
+		.fac
+			background-color: $facebook
+		.go
+			background-color: $google
+		.vk
+			background-color: $vk
+.comment_form
+	input,
+	textarea
+		border: 1px solid $border_col
+		&:focus
+			box-shadow: 0 0 3px $but_color
+	label
+		sup
+			color: $but_color
+	button
+		color: $bg_color
+.contact
+	li
+		a
+			color: $but_color
+.active
+	background-color: $but_hover!important
+.cat_list
+	li
+		background-color: $but_color
+		color: $bg_color
+		&:hover
+			background-color: $but_hover
+.foto_title
+	background-color: $bg_color
+	border-bottom: 2px solid $but_color
+	&:hover
+		background-color: $border_col
+.tog_mnu
+	color: $but_color
+	span
+		background-color: $but_color
+
+footer
+	background-color: $but_color
+	.foot_mnu
+		background-color: $bg_color
+		li
+			a
+				color: $but_color
+				&:hover
+					background-color: $but_hover
+					color: $bg_color
+	.copy
+		p
+			color: $bg_color	
+
+
+
+
+

@@ -1,0 +1,220 @@
+body {
+  color: #000;
+  background-color: #fff; }
+
+a {
+  color: #fff; }
+
+p {
+  color: #000; }
+
+.text {
+  color: #000; }
+
+.economy,
+.coruption,
+.two_mind,
+.people,
+.even,
+.sport {
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+  vertical-align: middle; }
+
+.economy {
+  background-color: #BEBE1B; }
+
+.coruption {
+  background-color: #DD9933; }
+
+.two_mind {
+  background-color: #8224E3; }
+
+.people {
+  background-color: #DD3333; }
+
+.even {
+  background-color: #1E73BE; }
+
+.sport {
+  background-color: #81D742; }
+
+.top_nav {
+  background-color: #C0392B; }
+  .top_nav ul li a:hover {
+    background-color: #84251B; }
+
+.fixed_nav {
+  border-top: 1px solid #EFE5E5;
+  border-bottom: 2px solid #EFE5E5; }
+  .fixed_nav ul a {
+    color: #000; }
+    .fixed_nav ul a:hover {
+      color: #fff;
+      background-color: #C0392B; }
+
+#topsearch input[type="text"] {
+  background-color: #84251B;
+  color: #fff; }
+  #topsearch input[type="text"]:focus {
+    background-color: #611D16; }
+#topsearch button[type="submit"] {
+  background-color: #611D16;
+  color: #fff; }
+
+.news_title {
+  background-color: rgba(0, 0, 0, 0.6); }
+  .news_title h3 {
+    font-size: 18px;
+    margin: 0 0 8px 0; }
+
+.date,
+.view {
+  color: #fff;
+  font-size: 12px; }
+
+.date_black,
+.view_black {
+  font-size: 12px;
+  color: #000; }
+
+.news_block h2 {
+  background-color: #EFE5E5; }
+
+.small_wrap,
+.info_wrap,
+.breadcrumbs {
+  border-bottom: 1px solid #EFE5E5; }
+
+.small_deskr h3 a {
+  color: #000; }
+  .small_deskr h3 a:hover {
+    color: #C0392B; }
+
+.big_post,
+article {
+  border-bottom: 1px solid #EFE5E5; }
+
+.more {
+  background-color: #C0392B; }
+  .more:hover {
+    background-color: #84251B; }
+
+h4 a {
+  color: #000; }
+  h4 a:hover {
+    color: #C0392B; }
+
+.tabs_cont li {
+  border-bottom: 1px solid #EFE5E5; }
+
+.tabs_link {
+  background-color: #C0392B; }
+  .tabs_link li p {
+    color: #fff; }
+    .tabs_link li p:hover {
+      background-color: #84251B; }
+  .tabs_link .activ_tab {
+    background-color: #84251B; }
+    .tabs_link .activ_tab:before {
+      color: #fff; }
+
+#marquee {
+  height: 50px; }
+  #marquee a {
+    color: #000; }
+
+.img_wrap a:before, .img_wrap a:after {
+  background-color: rgba(0, 0, 0, 0.6); }
+.img_wrap a:before {
+  border-right: 1px solid #C0392B; }
+.img_wrap a:after {
+  border-left: 1px solid #C0392B; }
+
+.title {
+  background-color: #EFE5E5;
+  border-bottom: 2px solid #C0392B; }
+
+.lust_news li {
+  border-bottom: 1px solid #EFE5E5; }
+  .lust_news li:hover {
+    border-right: 2px solid #C0392B; }
+
+.lust_blog li:before {
+  background-color: #C0392B; }
+
+.link a {
+  color: #000; }
+  .link a:hover {
+    color: #C0392B; }
+
+.pagination a {
+  background-color: #C0392B; }
+  .pagination a:hover {
+    background-color: #84251B;
+    box-shadow: 0 1px 3px #000; }
+
+.tags a,
+.breadcrumbs a {
+  color: #000; }
+  .tags a:hover,
+  .breadcrumbs a:hover {
+    background-color: #EFE5E5; }
+
+.share .social .tw {
+  background-color: #00A0D1; }
+.share .social .fac {
+  background-color: #3B5998; }
+.share .social .go {
+  background-color: #DB4A39; }
+.share .social .vk {
+  background-color: #4E7097; }
+
+.comment_form input,
+.comment_form textarea {
+  border: 1px solid #EFE5E5; }
+  .comment_form input:focus,
+  .comment_form textarea:focus {
+    box-shadow: 0 0 3px #C0392B; }
+.comment_form label sup {
+  color: #C0392B; }
+.comment_form button {
+  color: #fff; }
+
+.contact li a {
+  color: #C0392B; }
+
+.active {
+  background-color: #84251B !important; }
+
+.cat_list li {
+  background-color: #C0392B;
+  color: #fff; }
+  .cat_list li:hover {
+    background-color: #84251B; }
+
+.foto_title {
+  background-color: #fff;
+  border-bottom: 2px solid #C0392B; }
+  .foto_title:hover {
+    background-color: #EFE5E5; }
+
+.tog_mnu {
+  color: #C0392B; }
+  .tog_mnu span {
+    background-color: #C0392B; }
+
+footer {
+  background-color: #C0392B; }
+  footer .foot_mnu {
+    background-color: #fff; }
+    footer .foot_mnu li a {
+      color: #C0392B; }
+      footer .foot_mnu li a:hover {
+        background-color: #84251B;
+        color: #fff; }
+  footer .copy p {
+    color: #fff; }
+
+/*# sourceMappingURL=tomato.css.map */

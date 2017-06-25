@@ -1,0 +1,120 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.soc_aside{
+	display: none;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.soc_aside{
+		display: block;
+	}
+	.top_nav .social,
+	.top_nav .top_navig,
+	.ban_block .logo{
+		text-align: center;
+	}
+	.tog_mnu{
+		display: block;
+	}
+	.fixed_nav{
+		display: none;
+		position: absolute;
+		z-index: 100;
+		background-color: #fff;
+		width: 100%;
+	}
+	.fixed_nav ul li,
+	.fixed_nav ul li a{
+		display: block;
+	}
+	.news_block .big_post .img_wrap a:after{
+		top: -138px
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.news_block .big_post .img_wrap a:before,
+	.news_block .big_post .img_wrap a:after{
+		display: none;
+	}
+	.share .social li{
+		width: 40%;
+		margin-bottom: 5px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.news_block .big_post > div,
+	.small_wrap .small_post{
+		display: block;
+		width: 100%;
+	}
+	.tabs_link li{
+		width: 17%;
+	}
+	.tabs_link li p {
+		padding: 10px 0px;    
+		font-size: 12px;
+	}
+	.comment .comment_form label{
+		display: block;
+		width: 100%;
+	}
+	.breadcrumbs a{
+		line-height: 24px;
+	}
+	.breadcrumbs li a{
+		font-size: 12px;
+	}
+	.pagination ul li a{
+		width: 25px;
+    height: 25px;
+    line-height: 25px;
+	}
+	.pagination ul li{
+		margin-right: 5px;
+	}
+	.artic_wrap > div{
+		display: block;
+		width: 100%!important;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
