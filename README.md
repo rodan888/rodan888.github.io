@@ -12,3 +12,6 @@ Main page. Business web page
 
 # [10 News](https://rodan888.github.io/10-news/)
 All pages. News portal
+
+# [Erotic](https://rodan888.github.io/erotic-landing/)
+All pages. Blog
