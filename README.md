@@ -1,6 +1,9 @@
 # [ABM-shelf](https://rodan888.github.io/abm-shelf/)
 Abm-shelf. Landing
 
+# [Inventory](https://rodan888.github.io/inventory/)
+Inventory
+
 # [Water-shop](https://rodan888.github.io/water-shop/)
 Water-shop
 
